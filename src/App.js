@@ -5,11 +5,13 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import Display from "./component/Display";
 import Views from "./component/Views";
+import Comments from "./component/Comments";
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
+        <Comments />
         <Subscribers />
         <Views />
         <Display />

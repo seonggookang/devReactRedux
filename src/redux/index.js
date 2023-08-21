@@ -2,3 +2,4 @@
 // 바로 export하는
 export { addSubscriber, removerSubscriber } from "./subscribers/actions";
 export { addView } from "./views/actions";
+export { fetchComments } from "./comments/actions";
